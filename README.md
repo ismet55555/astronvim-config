@@ -43,12 +43,14 @@ with custom modifications.
           git clone --depth 1 https://github.com/AstroNvim/AstroNvim $HOME/.config/nvim
           git clone https://github.com/ismet55555/astronvim-config.git $HOME/.config/nvim/lua/user
           nvim  --headless -c 'quitall'
+	  nvim -c "Mason"
           ```
     - Windows:
         - ```bash
           git clone --depth 1 https://github.com/AstroNvim/AstroNvim $HOME/AppData/Local/nvim
           git clone https://github.com/ismet55555/astronvim-config.git $HOME/AppData/Local/nvim/lua/user
           nvim  --headless -c 'quitall'
+	  nvim -c "Mason"
           ```
 
 2. Basic dependencies have been installed automatically, however, you can install/remove:
