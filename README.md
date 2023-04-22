@@ -37,20 +37,20 @@ with custom modifications.
 
 ## Setup
 
-1. Clone AstroNvim base repo, clone configuration into it, and install
+1. Clone AstroNvim base repo, clone these configuration into it, and install
     - MacOS/Linux:
         - ```bash
           git clone --depth 1 https://github.com/AstroNvim/AstroNvim $HOME/.config/nvim
           git clone https://github.com/ismet55555/astronvim-config.git $HOME/.config/nvim/lua/user
           nvim  --headless -c 'quitall'
-	  nvim -c "Mason"
+          nvim -c "Mason"
           ```
     - Windows:
         - ```bash
           git clone --depth 1 https://github.com/AstroNvim/AstroNvim $HOME/AppData/Local/nvim
           git clone https://github.com/ismet55555/astronvim-config.git $HOME/AppData/Local/nvim/lua/user
           nvim  --headless -c 'quitall'
-	  nvim -c "Mason"
+          nvim -c "Mason"
           ```
 
 2. Basic dependencies have been installed automatically, however, you can install/remove:
