@@ -68,5 +68,12 @@ After everything installed and settled down, exit then enter again.
 
 ## Removing `nvim` Configs
 
-- MacOS/Linux: `rm -rf $HOME/.config/nvim && rm -rf $HOME/.local/share/nvim && rm -rf $HOME/.cache/nvim`
-- Windows: `Remove-Item -Force -Recurse $HOME\AppData\Local\nvim; Remove-Item -Force -Recurse $HOME\AppData\Local\nvim-data`
+MacOS/Linux:
+- ```bash
+  rm -rf $HOME/.config/nvim && rm -rf $HOME/.local/share/nvim && rm -rf $HOME/.cache/nvim
+  ```
+  
+Windows:
+- ```bash
+  Remove-Item -Force -Recurse $HOME\AppData\Local\nvim; Remove-Item -Force -Recurse $HOME\AppData\Local\nvim-data
+  ```
