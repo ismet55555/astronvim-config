@@ -1,0 +1,9 @@
+!colors/default_theme.lua
+colors/*
+docs
+.mypy_cache
+ginit.vim
+lua/packer_compiled.lua
+plugin
+ftplugin
+spell
