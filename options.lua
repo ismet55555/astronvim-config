@@ -33,6 +33,10 @@ return {
       heirline_bufferline = false, -- enable new heirline based bufferline (requires :PackerSync after changing)
       copilot_no_tab_map = true,
       copilot_assume_mapped = true,
-      copilot_tab_fallback = ""
+      copilot_tab_fallback = "",
+      copilot_filetypes = {
+            ["yaml"] = true,
+            ["yml"] = true,
+      }
   },
 }
