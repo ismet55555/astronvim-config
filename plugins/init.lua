@@ -1,7 +1,12 @@
 return {
+  -- GitHub Copilot
+  {
+    "github/copilot.vim",
+    lazy = false,
+  },
+
   -- Colorscheme
   {"olimorris/onedarkpro.nvim"},
-
 
   -- Distraction free writing (Zen Mode)
   {
