@@ -3,6 +3,12 @@
 -- Please use this mappings table to set keyboard mapping since this is the
 -- lower level configuration and more robust one. (which-key will
 -- automatically pick-up stored data by this setting.)
+--
+-- C - control
+-- S - shift
+-- A - alt
+-- M - meta (mac: cmd, win: win, linux: super)
+-- CR or cr - Return/Enter
 ------------------------------------------------------------------------------
 return {
   -- first key is the mode
@@ -45,6 +51,9 @@ return {
 
       -- Cheat.sh
       ["<leader>ch"] = { "<cmd>Cheat<CR>", desc = "Open Cheat.sh input" },
+
+      -- Copilot Panel
+      ["<leader>cc"] = { "<cmd>Copilot panel<CR>", desc = "Copilot suggestion panel" },
 
       -- hop.nvim
       -- ["s"] = { "<cmd>HopChar1<CR>", desc = "Hop to specific character" },
