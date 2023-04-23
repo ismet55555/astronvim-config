@@ -8,7 +8,9 @@ return {
   -- first key is the mode
   i = {
       -- INSERT
-      ["<C-J>"] = { "copilot#Accept(<Tab>)", silent = true, expr = true, script = true, desc = "Coplilot accept suggestion"},
+      ["<A-cr>"] = { "copilot#Accept(<Tab>)", silent = true, expr = true, script = true, desc = "Coplilot accept suggestion"},
+      -- ["<A-n"] = { "copilot#CycleNext(<Tab>)", silent = true, expr = true, script = true, desc = "Coplilot next suggestion"},
+
   },
   n = {
       -- NORMAL
