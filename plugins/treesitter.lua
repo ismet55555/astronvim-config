@@ -1,3 +1,7 @@
+require("nvim-treesitter.install").command_extra_args = {
+    curl = { "-k" }
+}
+
 return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
