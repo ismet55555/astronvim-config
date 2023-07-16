@@ -1,8 +1,16 @@
 return {
-  -- GitHub Copilot
   {
-    "github/copilot.vim",
-    lazy = false,
+    "zbirenbaum/copilot.lua",
+    lazy = true,
+    cmd = "Copilot",
+    event = "InsertEnter",
+    opts = {
+      suggestion = {
+        enabled = true;
+        auto_trigger = true,
+        debounce = 150,
+      },
+    },
   },
 
   -- Colorscheme
@@ -74,5 +82,4 @@ return {
   --         ))
   --     end,
   -- },
-
 }
