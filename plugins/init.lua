@@ -47,6 +47,9 @@ return {
   -- Smart code folding
   {"pseewald/vim-anyfold"},
 
+  -- Rust tools for rust language
+  {"simrat39/rust-tools.nvim"},
+
   -- -- Easy and smart search and replace
   -- {"brooth/far.vim"},
 

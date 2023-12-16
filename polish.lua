@@ -34,6 +34,7 @@ return function()
           [".*Gearsfile.*"] = "yaml",
           [".*Bogiefile.*"] = "yaml",
           [".*Jenkinsfile.*"] = "groovy",
+          [".*.kv"] = "yaml",
       },
   }
 end
