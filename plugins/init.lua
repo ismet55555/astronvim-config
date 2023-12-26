@@ -14,7 +14,23 @@ return {
   },
 
   -- Colorscheme
-  {"olimorris/onedarkpro.nvim"},
+  -- {"olimorris/onedarkpro.nvim"},
+  -- {"rebelot/kanagawa.nvim"},
+  -- {"projekt0n/github-nvim-theme"},
+  -- {
+  --   "olimorris/onedarkpro.nvim",
+  --   priority = 1000 -- Ensure it loads first
+  -- },
+  -- {
+  --   'navarasu/onedark.nvim',
+  --   style = 'darker'
+  -- },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 
   -- Distraction free writing (Zen Mode)
   {
@@ -27,7 +43,7 @@ return {
     "sindrets/diffview.nvim",
     requires = { "nvim-lua/plenary.nvim" },
     after = "plenary.nvim",
-    -- event = "Uer AstroGitFile",
+    -- event = "Uer AstroritFile",
     lazy = false,
   },
 
